@@ -1,0 +1,134 @@
+.c-order-commd{
+	position: relative;
+	top: 0;
+	background-color: #fff;
+}
+.c-order-commd ul li{
+	position: relative;
+	width: 100%;
+	height: 5rem;
+	border-bottom: 1px solid #E5E5E5;
+}
+.c-order-commd ul li > div{
+	float: left;
+}
+.c-order-commd ul li .order-c-img{
+	line-height: 5rem;
+	margin-left: 1.1333333333333333rem;
+	overflow: hidden;
+}
+.c-order-commd ul li .order-c-img > img{
+	width: 2.7333333333333334rem;
+	height: 2.7333333333333334rem;
+	border-radius: 50%;
+}
+.c-order-commd ul li .order-c-cont{
+	padding: 0.8666666666666667rem;
+}
+.c-order-commd ul li .order-cont-pace{
+	font-size: 1.4rem;
+	color: #333;
+	line-height: 1.5rem;
+}
+.c-order-commd ul li .order-cont-name{
+	font-size: 0.9333333333333333rem;
+	color: #303030;
+}
+.order-pay-money{
+    width: 100%;
+    height: 3.3333333333333335rem;
+    line-height: 3.3333333333333335rem;
+    text-align: right;
+    padding-right: 0.5rem;
+    font-size: 1.4rem;
+}
+.order-pay-money > span{
+	color: #c46b22;
+}
+.pay-modes{
+	position: relative;
+	top: 0.8666666666666667rem;
+	width: 100%;
+	background-color: #fff;
+}
+.pay-modes .p-mode-t{
+	width: 100%;
+	height: 2.8333333333333335rem;
+	line-height: 2.8333333333333335rem;
+	font-size: 1.0666666666666667rem;
+	color: #2e2d3b;
+	border-bottom: 1px solid #E5E5E5;
+}
+.pay-modes .p-mode-t > img{
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: -0.23333333333333334rem 0.3333333333333333rem 0 0.7333333333333333rem;
+}
+.pay-modes .p-mode-c{
+	position: relative;
+	width: 100%;
+	height: 3.8rem;
+	border-bottom: 1px solid #E5E5E5;
+}
+.pay-modes .p-mode-c > div{
+	float: left;
+}
+.pay-modes .p-mode-c .p-mode-img{
+	margin: 0.6666666666666666rem 0.6666666666666666rem 0 1.1333333333333333rem;
+}
+.pay-modes .p-mode-c .p-mode-img > img{
+	width: 1.9666666666666666rem;
+	height: 1.9666666666666666rem;
+}
+.pay-modes .p-mode-c .p-mode-n{
+	margin-top: 0.6666666666666666rem;
+}
+.pay-modes .p-mode-c .mode-name-t{
+	font-size: 1.2rem;
+	color: #333;
+	line-height: 1.2rem;
+}
+.pay-modes .p-mode-c .mode-n-ex{
+	font-size: 0.8666666666666667rem;
+	color: #888;
+	line-height: 1.3333333333333333rem;
+}
+.pay-modes .p-mode-c .pay-choices{
+	position: absolute;
+	top: 50%;
+	right: 1.1333333333333333rem;
+}
+.pay-modes .p-mode-c .pay-choices span{
+	display: inline-block;
+	margin-top: -50%;
+	width: 1.3333333333333333rem;
+	height: 1.3333333333333333rem;
+	border: 2px solid #c7c7cc;
+	border-radius: 50%;
+}
+.pay-modes .p-mode-last{
+	border: 0;
+}
+.pay-modes .p-mode-c .pay-choices span.active{
+	background:url(../../images/shop_selected@2x.png);
+	background-size: 100% 100%;
+	border: 0;
+}
+.pay-buttom{
+	margin: 1.7333333333333334rem 10%;
+	width: 80%;
+	height: 2.6666666666666665rem;
+	line-height: 2.6666666666666665rem;
+	background-color: #e74c3c;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+}
+.order-num{
+    position: absolute;
+    right: 1rem;
+    bottom: 0.2rem;
+    font-size: 1rem;
+    color: #999;	
+}

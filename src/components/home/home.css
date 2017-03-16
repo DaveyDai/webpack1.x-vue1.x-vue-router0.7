@@ -1,0 +1,246 @@
+#home section{
+	background-color: #EAEAEA;
+}
+/*广告图*/
+.hx_banner{
+	height:10.933333333333334rem;
+	overflow:hidden;
+	position:relative;}
+.ban_list{
+	height:100%;
+	/*background-color: #FFFFFF;*/
+}
+.ban_list li{
+	float:left;
+	height:100%;}
+.ban_list li img{
+	display:block;
+}
+.num-list{
+	position: absolute;
+	bottom:0.34rem;
+	left:50%;	
+}
+.num_list{
+	height:1.1rem;
+	width:100%;
+	font-size:0;
+	line-height:0;
+	text-align:center;
+	background-color: #6f6f6f;
+	padding: 0 0.4rem;	
+	border-radius: 0.5rem;
+	margin-left: -50%;
+}
+.num_list span{
+	display:inline-block;
+	width:0.4rem;
+	height:0.4rem;
+	margin:0.3333333333333333rem;
+	background:rgba(255,255,255,0.5);
+	-moz-border-radius:1rem; -webkit-border-radius:1rem; border-radius:1rem;}
+.num_list span.current{
+	background:#eabe50;}
+/*内容*/	
+.c-hotel-tall{
+	height: 2.2666666666666666rem;
+	line-height: 2.2666666666666666rem;
+	margin: 0.6666666666666666rem 0.8rem 0 0.8rem;
+	background-color: #fff;
+	border-radius: 14px;
+}
+.c-hotel-tall img{
+	width: 0.9333333333333333rem;
+	height: 0.8666666666666667rem;
+	margin: -0.3333333333333333rem 0.3333333333333333rem 0 0.6666666666666666rem;
+}
+.c-hotel-tall span{
+	font-size: 0.8rem;
+	color: #363636;
+}
+.c-hotel-centent{
+	position: relative;
+	margin-top: 0.6666666666666666rem;
+	width: 100%;
+	height: 6.333333333333333rem;
+	background-color:#fff;
+}	
+.c-hotel-centent .c-h-in{
+	float: left;
+}
+.c-hotel-centent .c-h-img{
+	line-height: 6.333333333333333rem;
+	margin: 0 0.6rem 0 0.8rem;
+}
+.c-hotel-centent .c-h-img img{
+	width: 3.8666666666666667rem;
+	height: 3.8666666666666667rem;
+	border-radius: 8px;
+}
+.c-hotel-centent .c-h-cent{
+	position: relative;
+	top: 1.2666666666666666rem;
+}
+.c-hotel-centent .c-h-cent .c-h-name span{
+	font-size: 1rem;
+	line-height: 1.1666666666666667rem;
+	color: #e3722a;
+}
+.c-hotel-centent .c-h-cent .c-h-name img{
+	width: 0.4666666666666667rem;
+	height: 0.8rem;
+	margin: -0.4rem 0 0 0.4666666666666667rem;
+}
+.c-hotel-centent .c-h-cent .c-h-yysj{
+	font-size: 0.8rem;
+	color: #363636;
+}
+.c-hotel-centent .c-h-time{
+	margin-left: 0.9333333333333333rem;
+} 
+.c-hotel-centent .c-h-phone{
+	font-size: 0.8rem;
+	line-height: 1.1666666666666667rem;
+	color: #363636;
+}
+.c-hotel-centent .c-h-phone a{
+	margin-left: 0.9333333333333333rem;
+	color: #e3722a;
+}
+.c-h-sfyy{
+	position: absolute;
+	top: 1.3333333333333333rem;
+	right: 0.8rem;
+	font-size: 0.9333333333333333rem;
+	
+}
+.c-h-sfyy .c-h-yyz{
+	text-align: center;
+	width: 3.4rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 4px;
+	border: 1px solid #363636;	
+	color: #363636;	
+}
+.c-h-sfyy > div.active{
+	border: 1px solid #78a736;
+	color: #78a736;
+}
+.c-h-sfyy .c-h-wyy{
+	margin-top: 0.3333333333333333rem;
+	text-align: center;
+	width: 3.4rem;
+	height: 1.4rem;
+	line-height: 1.4rem;	
+	border-radius: 4px;
+	border: 1px solid #363636;	
+	color: #363636;
+}
+.c-hotel-modular{
+	position: relative;
+	padding: 0 2% 0 1%;
+	margin-top: 0.6666666666666666rem;
+}
+.c-hotel-modular ul li{
+	float: left;
+	height: 5.066666666666666rem;
+	width: 47.5%;
+	margin:0 0 2% 2%;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.c-hotel-modular ul li .c-mod-img,.c-hotel-modular ul li .c-mod-ct{
+	float: left;
+}
+.c-hotel-modular ul li .c-mod-img{
+	margin: -0.3rem 0.1rem 0 0.8rem;
+	height: 5.06rem;
+	line-height: 5.06rem;
+}
+.c-hotel-modular ul li .c-mod-img img{
+	width: 3.2rem;
+	/*height: 3.2rem;*/
+}
+.c-hotel-modular ul li .c-mod-ct{
+	width: 6.4rem;
+	text-align: center;
+	padding: 10% 0;
+}
+.c-hotel-modular ul li .c-mod-ct .c-mod-name{
+	line-height: 1.3333333333333333rem;
+	font-size: 1rem;
+	color: #000;
+}
+.c-hotel-modular ul li .c-mod-ct .c-mod-sm{
+	font-size: 0.8rem;
+	color: #666;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.c-h-zwf{
+	height: 0.3333333333333333rem;
+	clear: both;
+}
+.c-hotel-hot{
+	position: relative;
+	width: 100%;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	background-color: #fff;
+}
+.c-hotel-hot img{
+	margin: -0.3333333333333333rem 0 0 0.8rem;
+	width: 1rem;
+	height: 1.1666666666666667rem;
+}
+.c-hotel-hot .c-hot-name{
+	margin-left: 0.3333333333333333rem;
+	font-size: 1rem;
+	color: #000;
+}
+.c-hotel-hot .c-hot-sm{
+	position: absolute;
+	right: 0.8rem;
+	font-size: 0.8rem;
+	color: #666;
+}
+.c-hot-hotel{
+	position: relative;
+	width: 100%;
+	height: 11.9rem;
+	margin-top: 0.3333333333333333rem;
+	display: inline;
+	white-space: nowrap;
+	overflow-x:scroll;
+	float:left;
+	overflow-y:hidden;	
+}
+.c-hot-hotel .hot-h{
+	width: 28%;
+	height: 11.233333333333333rem;
+	display:inline-block;
+	margin: 0 0.3rem;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+.c-hot-hotel .hot-h .hot-h-img{
+	padding: 0.4666666666666667rem;
+}
+.c-hot-hotel .hot-h .hot-h-img img{
+	width: 6.2rem;
+	height: 7.533333333333333rem;
+}
+.c-hot-hotel .hot-h .hot-h-name{
+	font-size: 0.9333333333333333rem;
+	color: #000;
+	line-height: 0.9333333333333333rem;
+	padding: 0 0.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.c-hot-hotel .hot-h .hot-h-price{
+	font-size: 0.9333333333333333rem;
+	color: #e5383e;
+}

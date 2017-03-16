@@ -1,0 +1,171 @@
+/*导航栏*/
+.life-navigationBar{
+	position: relative;
+	width: 100%;
+	height: 3.5rem;
+	display: inline;
+	white-space: nowrap;
+	overflow-x:scroll;
+	float:left;
+	overflow-y:hidden;	
+	display:table-cell;
+            vertical-align:middle;
+}
+.life-navigationBar .navB-content{
+	height: 1.6666666666666667rem;
+	line-height: 1.6666666666666667rem;
+	display:inline-block;
+	background-color: #fff;
+	border-radius: 32px;
+	text-align: center;
+	font-size: 1rem;
+	color: #333;
+	margin: 0.6666666666666666rem;
+	padding: 0 0.6rem;
+}
+.life-navigationBar .active{
+	background-color: #7dc752;
+	color: #fff;
+}
+/*搜索*/
+.screen-hotel{
+	position: relative;
+	clear: both;
+	height: 2.2666666666666666rem;
+	width: auto;
+	margin: 0 0.8rem;
+	background-color:#fff;
+	border-radius: 34px;
+}
+.screen-hotel > .screen-input{
+	position: absolute;
+	width: 78%;
+	height: 2.2666666666666666rem;
+	line-height: 2.2666666666666666rem;
+	left: 0.6rem;
+    font-size: 0.9333333333333333rem;
+    color: #ccc;
+    z-index: 100;
+}
+.screen-hotel > .screen-input > img{
+    width: 1rem;
+    height: 1rem;
+}
+.screen-hotel > .hotel-screen-input{
+    position: absolute;
+    width: 80%;
+    height: 2.2666666666666666rem;
+    border-radius: 34px;
+    font-size: 0.9333333333333333rem;
+    display: block;	
+    border: 0;
+    -webkit-appearance:none;
+    padding-left:0.6rem;
+}
+.screen-hotel > .screen-th-hotel{
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 2.2666666666666666rem;
+    line-height: 2.2666666666666666rem;
+    border-radius: 0 34px 34px 0;
+    background-color: #78b15c;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9333333333333333rem;	
+}
+#lifeHome .header{
+	padding-bottom: 0.67rem;
+}
+/*列表*/
+.hotel-list{
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+}
+.hotel-list ul li{
+	position: relative;
+	width: 100%;
+	height: 5.933333333333334rem;
+	border: 1px solid #e5e5e5;
+}
+.hotel-list ul li .hotel-lists{
+	float: left;
+}
+.hotel-list ul li .hotel-list-img{
+	width: 28%;
+}
+.hotel-list ul li .hotel-list-img img{
+	width: 5.333333333333333rem;
+	height: 4.666666666666667rem;
+	margin: 0.6666666666666666rem 0.6666666666666666rem 0 0.8333333333333334rem;
+}
+.hotel-list ul li .hotel-list-content{
+	position: relative;
+	width: 70%;
+	top: 15%;
+	white-space: nowrap;
+}
+.hotel-list ul li .hotel-content-name{
+	line-height: 1.3333333333333333rem;
+	font-size: 1rem;
+	color: #010101;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.hotel-list ul li .hotel-content-pay{
+	line-height: 1.6666666666666667rem;
+	font-size:0.9333333333333333rem;
+	color: #c56c23;
+}
+.hotel-list ul li .hotel-content-integral{
+	line-height: 1.3333333333333333rem;
+	font-size: 0.8rem;
+	color: #989898;
+}
+.hotel-list ul li .hotel-list-change{
+	position: absolute;
+	right: 0.6666666666666666rem;
+	bottom: 0.3333333333333333rem;
+	font-size: 0.8rem;
+} 
+.hotel-list ul li .hotel-list-change > div{
+	margin: 0 0.2rem;
+	float: left;
+}
+.hotel-list ul li .hotel-list-change .hotel-change-hot{
+	line-height: 1rem;
+}
+.hotel-list ul li .hotel-change-hot{
+	color: #fff;
+	background-color: #c56c23;
+	border-radius: 25px;
+	padding: 0.16666666666666666rem 0.5rem;
+	margin: 0.16666666666666666rem 0.16666666666666666rem 0 0.16666666666666666rem;
+} 
+.hotel-list ul li .hotel-change-j{
+	color: #fff;
+	background-color: #80ba63;
+	border-radius: 50%;
+	font-size:1.6666666666666667rem ;
+	padding: 0.3333333333333333rem 0.5rem;
+	margin: 0 0.16666666666666666rem;
+}
+.hotel-list ul li .hotel-change-input{
+	color: #000;
+	border-radius: 5px;
+	border: 2px solid #989898;
+	font-size:1rem;
+	padding:0.16666666666666666rem 0.5rem;
+	margin:0.16666666666666666rem 0.16666666666666666rem 0 0.16666666666666666rem;
+}
+.hotel-list ul li .hotel-change-z{
+	color: #fff;
+	background-color: #80ba63;
+	border-radius: 50%;
+	font-size:1.6666666666666667rem ;
+	padding: 0.3333333333333333rem 0.3333333333333333rem;
+	margin: 0 0.16666666666666666rem;
+}
+
+

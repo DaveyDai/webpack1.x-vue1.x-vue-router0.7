@@ -1,0 +1,237 @@
+/*购物车*/
+.shoping-commoditys{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.shoping-commoditys li{ 
+	position: relative;
+	width: auto;
+	height: 4rem;
+	margin: 0 0.6666666666666666rem;
+	border-bottom: 1px solid #E5E5E5;
+}
+.shoping-commoditys li .comm-li-info{ 
+	float: left;
+}
+.shoping-commoditys li .commodity-information{
+	font-size: 0.9333333333333333rem;
+}
+.shoping-commoditys li .information-name{
+	height: 2rem;
+	line-height: 2.5rem;
+	color: #333;
+}
+.shoping-commoditys li .information-pice{
+	height: 2rem;
+	line-height: 1.5rem;
+}
+.shoping-commoditys li .infor-p-span{
+	font-size: 1.0666666666666667rem;
+	color: #de4c18;
+	font-weight:bold;
+}
+.shoping-commoditys li .infor-j-span{
+	padding-left:1rem;
+	font-size: 0.8rem;
+	color: #989898;
+}
+.order-details{
+	position: relative;
+	margin-top: 0.6666666666666666rem;
+	width: 100%;
+	height: 4.666666666666667rem;
+}
+.o-details-n{
+	width: auto;
+	height: 2rem;
+	line-height: 2rem;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #f9f9f9;
+	padding: 0 0.8rem;
+	font-size: 1rem;
+	color: #000;
+}
+.orders-hide-img{
+    position: absolute;
+    right: 0.8rem;
+    top: 0.7666666666666667rem;
+	width: 0.8333333333333334rem;
+	height: 0.4666666666666667rem;
+}
+.order-details .o-details-pice{
+	width: auto;
+	height: 1.3333333333333333rem;
+	line-height: 1.3333333333333333rem;
+	font-size: 0.8rem;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #fff;
+	padding: 0 0.8rem;
+}
+.order-details .o-details-pice span{
+	color: #DE4C18;
+}
+.pice-mode{
+	position: relative;
+	margin-top: 0.6666666666666666rem;
+	width: 100%;
+	height: 6rem;
+}
+.pice-mode .pice-mode-choice{
+	padding-left: 0.8rem;
+	width: 100%;
+	height: 4rem;
+	line-height: 4.333333333333333rem;
+	background-color: #fff;
+}
+.pice-mode .pice-mode-choice span{
+	display: inline-block;
+	width: auto;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	border: 1px solid #666;
+	border-radius: 5px;
+	color: #666;
+	font-size: 0.9333333333333333rem;
+	margin-right: 0.6666666666666666rem;
+	padding: 0 0.5rem;
+}
+.pice-mode .pice-mode-choice span.active{
+	background:url(../../images/shop_cart_selected@2x.png);
+	background-size: 100% 100%;
+	border: 0;
+	border-radius: 0;
+	color: #d83200;	
+}
+.order-information{
+	position: relative;
+	top: 0.6666666666666666rem;
+	width: 100%;
+	height: 14.666666666666666rem;
+	margin-bottom: 1rem;
+	background-color: #fff;
+}
+.order-information .o-room-infor{
+	width: 100%;
+	height: 2.533333333333333rem;
+	line-height: 2.433333333333333rem;
+	border-bottom: 1px solid #E5E5E5;
+	font-size:0.9333333333333333rem;
+	color: #000;
+}
+.order-information .o-room-infor span{
+	display: inline-block;
+	width: 20%;
+	height: auto;
+	text-align: right;
+	padding-right:0.6666666666666666rem;
+	background-color: #F9F9F9;
+}
+.order-information .o-room-infor input,.order-information .o-room-beizhu textarea{
+	position: relative;
+	left: 0.6666666666666666rem;
+	width: 75%;
+	height: 2.333333333333333rem;
+	border: 0;
+	font-size:0.8666666666666667rem;
+	color: #000;
+}
+.order-information .o-room-beizhu textarea{
+	height: 100%;
+	width: 100%;
+}
+.order-information .o-room-beizhu{
+	width: 100%;
+	height: 7rem;
+	border-bottom: 1px solid #E5E5E5;
+	font-size:0.9333333333333333rem;
+	color: #000;	
+}
+.order-information .o-room-beizhu span{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: 6.933333333333334rem;
+	text-align: right;
+	padding-right:0.6666666666666666rem;
+	background-color: #F9F9F9;
+	padding-top: 0.3333333333333333rem;
+}
+.order-information .o-room-beizhu > div{
+	float: left;
+	width: 75%;
+	height: 6.933333333333334rem;
+	padding-top: 0.6666666666666666rem;
+}
+.order-information .o-room-infor input::-webkit-input-placeholder,.order-information .o-room-beizhu textarea::-webkit-input-placeholder {
+	color: #999;
+} 
+.order-information .o-room-infor input:-moz-placeholder,.order-information .o-room-beizhu textarea:-moz-placeholder {
+	color: #999;
+} 
+.order-information .o-room-infor input::-moz-placeholder,.order-information .o-room-beizhu textarea::-moz-placeholder {
+	color: #999;
+} 
+.order-information .o-room-infor input:-ms-input-placeholder,.order-information .o-room-beizhu textarea:-ms-input-placeholder {
+	color: #999;
+}
+.pice-pay{
+    position: fixed;
+    bottom: 3.26rem;
+    width: 100%;
+    height: 3rem;
+    background-color: #f9f9f9;
+    z-index: 999;
+}
+.pice-pay > div{
+	display: inline-block;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 0.9333333333333333rem;
+	color: #333;
+}
+.pice-pay .pice-order-all{
+	width: 30%;
+}
+.pice-pay .pice-order-all span{
+	padding: 0 0.26666666666666666rem;
+	font-weight: 600;
+	color: #DE4C18;
+}
+.pice-pay .pice-pay-all{
+	width: 40%;
+}
+.pice-pay .pice-pay-all span{
+	padding: 0 0.26666666666666666rem;
+	font-size: 1.1333333333333333rem;
+	font-weight: bold;
+	color: #DE4C18;
+}
+.pice-pay .pice-pay-s{
+	position: absolute;
+	right: 0;
+	width: 30%;
+	font-size: 1.0666666666666667rem;
+	background-color: #c94e3f;
+	color: #fff;
+}
+.no-shopping{
+	text-align: center;
+	width: 100%;
+	height: 12rem;
+	background-color: #fff;
+}
+.no-shopping p{
+	padding-top: 3rem;
+	color: #333;
+	font-size: 1rem;
+}
+.no-shopping > div{
+	display: inline-block;
+	background-color: red;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	font-size: 1.1rem;
+	margin-top: 1rem;
+}
