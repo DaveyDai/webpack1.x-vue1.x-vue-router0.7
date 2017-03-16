@@ -54,128 +54,6 @@ module.exports = function(router) {
 			component:function(resolve){
 				require(['../components/shopping/orderPay.vue'],resolve)
 			}
-		},
-		'/memberCenter/memberHome':{
-			name:'memberHome',//会员中心
-			title:"会员中心",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/memberHome.vue'],resolve)
-			}
-		},
-		'/memberCenter/orderAll':{
-			name:'orderAll',//全部订单
-			title:"我的订单",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/orderAll.vue'],resolve)
-			}
-		},
-		'/memberCenter/myReserve':{
-			name:'myReserve',//我要预订
-			component:function(resolve){
-				require(['../components/memberCenter/myReserve.vue'],resolve)
-			}
-		},
-		'/memberCenter/personInfo':{
-			name:'personInfo',//个人资料
-			title:"个人资料",
-			isLogin:true,
-			component:function(resolve){
-				require(['../components/memberCenter/personInfo.vue'],resolve)
-			}
-		},
-		'/memberCenter/orderDetail':{
-			name:'orderDetail',//订单详情
-			title:"订单详情",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/orderDetail.vue'],resolve)
-			}
-		},
-		'/memberCenter/messageboard':{
-			name:'messageboard',//留言板
-			title:"留言板",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/messageboard.vue'],resolve)
-			}
-		},
-		'/memberCenter/messageInput':{
-			name:'messageInput',//发表留言
-			title:"发表留言",
-			isLogin:true,
-			component:function(resolve){
-				require(['../components/memberCenter/messageInput.vue'],resolve)
-			}
-		},
-		'/memberCenter/memberPoints':{
-			name:'memberPoints',//会员卡积分
-			title:"会员卡积分",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/memberPoints.vue'],resolve)
-			}
-		},
-		'/memberCenter/pointsChange':{
-			name:'pointsChange',//积分变动
-			title:"积分变动",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/pointsChange.vue'],resolve)
-			}
-		},
-		'/memberCenter/twoCode':{
-			name:'twoCode',//会员二维码
-			component:function(resolve){
-				require(['../components/memberCenter/twoCode.vue'],resolve)
-			}
-		},
-		'/memberCenter/myReservation':{
-			name:'myReservation',//预订记录
-			title:"预订记录",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/myReservation.vue'],resolve)
-			}
-		},
-		'/memberCenter/myCoupon':{
-			name:'myCoupon',//优惠券
-			component:function(resolve){
-				require(['../components/memberCenter/myCoupon.vue'],resolve)
-			}
-		},
-		'/memberCenter/signPage':{
-			name:'signPage',//签到记录
-			title:"签到记录",
-			isLogin:true,			
-			component:function(resolve){
-				require(['../components/memberCenter/signPage.vue'],resolve)
-			}
-		},
-		'/memberCenter/login':{
-			name:'login',//登录
-			component:function(resolve){
-				require(['../components/memberCenter/login.vue'],resolve)
-			}
-		},
-		'/memberCenter/register':{
-			name:'register',//注册
-			component:function(resolve){
-				require(['../components/memberCenter/register.vue'],resolve)
-			}
-		},
-		'/memberCenter/callPasswd':{
-			name:'callPasswd',//找回密码
-			component:function(resolve){
-				require(['../components/memberCenter/callPasswd.vue'],resolve)
-			}
-		},
-		'/memberCenter/resetPassd':{
-			name:'resetPassd',//重新设置密码
-			component:function(resolve){
-				require(['../components/memberCenter/resetPassd.vue'],resolve)
-			}
 		}
 	});
 	//默认/重定向到home页
@@ -194,8 +72,6 @@ module.exports = function(router) {
 		}else{
 			transition.next();
 		}
-//		var paramCode = location.search.slice(1).split("&")[0].split("=")[1];
-//		sessionStorage.setItem("code", paramCode);
 	});
 
 }
